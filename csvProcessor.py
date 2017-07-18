@@ -13,7 +13,7 @@ dbInit()
 ##out_file = open('data/tx.'+appendname+'.csv', "wb") 
 ##tx_table = csv.DictWriter(out_file, delimiter=',', fieldnames=fieldnames)
 ##tx_table.writerow(dict((fn,fn) for fn in fieldnames))
-
+ 
 #csv output file info for tx_addr table
 ##fieldnames = ['Address', 'PropertyID', 'Protocol', 'TxDBSerialNum', 'AddressTxIndex', 'AddressRole', 'BalanceAvailableCreditDebit',
 ##              'BalanceReservedCreditDebit', 'BalanceAcceptedCreditDebit']
